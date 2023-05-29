@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Statement.Domain"
   ],
-  "SelectedNode": "\\SkillProfi.Api.sln",
+  "SelectedNode": "\\Statement.Domain\\Statement.cs",
   "PreviewInSolutionExplorer": false
 }
