@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AAHiqLdQKjyQkYu2ZoQq+Ke7J9djlGF0G8oGQcASzbQN/K8HKPfYV/30/VORmrPJY8u8hyWbiAuiYONECxm6AA==",
+  "dgSpecHash": "ki2Tn08ny5KKsFzaul4PGHH2oruaOA/SKntZ137f4MEH9nu1K3UcIaLY/OwmgacRZ5BMSbSaTYANyD+oJJ6reg==",
   "success": true,
-  "projectFilePath": "D:\\Обучение\\Программирование\\С#\\Skillbox\\SP\\SkillProfi.Api\\Statement.WebApi\\Statement.WebApi.csproj",
+  "projectFilePath": "D:\\Обучение\\Программирование\\С#\\Skillbox\\SP\\SkillProfi.Api\\Statement.WebApi\\Statements.WebApi.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

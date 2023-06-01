@@ -517,27 +517,28 @@
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
       },
-      "Statement.Application/1.0.0": {
+      "Statements.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Statement.Domain": "1.0.0"
+          "Microsoft.EntityFrameworkCore": "7.0.5",
+          "Statements.Domain": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Statement.Application.dll": {}
+          "bin/placeholder/Statements.Application.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Statement.Application.dll": {}
+          "bin/placeholder/Statements.Application.dll": {}
         }
       },
-      "Statement.Domain/1.0.0": {
+      "Statements.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Statement.Domain.dll": {}
+          "bin/placeholder/Statements.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Statement.Domain.dll": {}
+          "bin/placeholder/Statements.Domain.dll": {}
         }
       }
     }
@@ -1203,22 +1204,23 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Statement.Application/1.0.0": {
+    "Statements.Application/1.0.0": {
       "type": "project",
-      "path": "../Statement.Application/Statement.Application.csproj",
-      "msbuildProject": "../Statement.Application/Statement.Application.csproj"
+      "path": "../Statement.Application/Statements.Application.csproj",
+      "msbuildProject": "../Statement.Application/Statements.Application.csproj"
     },
-    "Statement.Domain/1.0.0": {
+    "Statements.Domain/1.0.0": {
       "type": "project",
-      "path": "../Statement.Domain/Statement.Domain.csproj",
-      "msbuildProject": "../Statement.Domain/Statement.Domain.csproj"
+      "path": "../Statement.Domain/Statements.Domain.csproj",
+      "msbuildProject": "../Statement.Domain/Statements.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.EntityFrameworkCore >= 7.0.5",
       "Microsoft.EntityFrameworkCore.Sqlite >= 7.0.5",
-      "Statement.Application >= 1.0.0"
+      "Statements.Application >= 1.0.0",
+      "Statements.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1229,9 +1231,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Обучение\\Программирование\\С#\\Skillbox\\SP\\SkillProfi.Api\\Statement.Persistance\\Statement.Persistance.csproj",
-      "projectName": "Statement.Persistance",
-      "projectPath": "D:\\Обучение\\Программирование\\С#\\Skillbox\\SP\\SkillProfi.Api\\Statement.Persistance\\Statement.Persistance.csproj",
+      "projectUniqueName": "D:\\Обучение\\Программирование\\С#\\Skillbox\\SP\\SkillProfi.Api\\Statement.Persistance\\Statements.Persistance.csproj",
+      "projectName": "Statements.Persistance",
+      "projectPath": "D:\\Обучение\\Программирование\\С#\\Skillbox\\SP\\SkillProfi.Api\\Statement.Persistance\\Statements.Persistance.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
       "outputPath": "D:\\Обучение\\Программирование\\С#\\Skillbox\\SP\\SkillProfi.Api\\Statement.Persistance\\obj\\",
       "projectStyle": "PackageReference",
@@ -1257,8 +1259,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Обучение\\Программирование\\С#\\Skillbox\\SP\\SkillProfi.Api\\Statement.Application\\Statement.Application.csproj": {
-              "projectPath": "D:\\Обучение\\Программирование\\С#\\Skillbox\\SP\\SkillProfi.Api\\Statement.Application\\Statement.Application.csproj"
+            "D:\\Обучение\\Программирование\\С#\\Skillbox\\SP\\SkillProfi.Api\\Statement.Application\\Statements.Application.csproj": {
+              "projectPath": "D:\\Обучение\\Программирование\\С#\\Skillbox\\SP\\SkillProfi.Api\\Statement.Application\\Statements.Application.csproj"
+            },
+            "D:\\Обучение\\Программирование\\С#\\Skillbox\\SP\\SkillProfi.Api\\Statement.Domain\\Statements.Domain.csproj": {
+              "projectPath": "D:\\Обучение\\Программирование\\С#\\Skillbox\\SP\\SkillProfi.Api\\Statement.Domain\\Statements.Domain.csproj"
             }
           }
         }

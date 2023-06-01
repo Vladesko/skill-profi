@@ -11,13 +11,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{162D9825-61BD-45CE-8B19-08C67C2E11DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Statement.Domain", "Statement.Domain\Statement.Domain.csproj", "{D66FF7E8-17B6-4562-AB79-3620FBC0399A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Statements.Domain", "Statement.Domain\Statements.Domain.csproj", "{D66FF7E8-17B6-4562-AB79-3620FBC0399A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Statement.Application", "Statement.Application\Statement.Application.csproj", "{32B536B2-6FDB-4B85-86A2-0B563189DA45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Statements.Application", "Statement.Application\Statements.Application.csproj", "{32B536B2-6FDB-4B85-86A2-0B563189DA45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Statement.Persistance", "Statement.Persistance\Statement.Persistance.csproj", "{5DA7162E-ADE0-4C7E-ADBC-B9BB2A1E7D74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Statements.Persistance", "Statement.Persistance\Statements.Persistance.csproj", "{5DA7162E-ADE0-4C7E-ADBC-B9BB2A1E7D74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Statement.WebApi", "Statement.WebApi\Statement.WebApi.csproj", "{9CEA6A99-3D20-4ECA-975C-F31E4D184013}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Statements.WebApi", "Statement.WebApi\Statements.WebApi.csproj", "{9CEA6A99-3D20-4ECA-975C-F31E4D184013}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

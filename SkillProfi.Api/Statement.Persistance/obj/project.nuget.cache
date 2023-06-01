@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BolhhetI4JBKGzRP9qRR4e2j6iy/agkaI0ubkLOvnwtYaLs8CwTWWWzl4dSQG6OZiIGPkgRzL781IKNUSQYXjw==",
+  "dgSpecHash": "5FMgDdcqxvabo9itCfcgDGunqG4aT3UgGyMRVGV840/eHu+2TM4iiU+AEbY1nHNX00YWAWcz2udPbWmK4dDw6A==",
   "success": true,
-  "projectFilePath": "D:\\Обучение\\Программирование\\С#\\Skillbox\\SP\\SkillProfi.Api\\Statement.Persistance\\Statement.Persistance.csproj",
+  "projectFilePath": "D:\\Обучение\\Программирование\\С#\\Skillbox\\SP\\SkillProfi.Api\\Statement.Persistance\\Statements.Persistance.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.5\\microsoft.data.sqlite.core.7.0.5.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.5\\microsoft.entityframeworkcore.7.0.5.nupkg.sha512",

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Statement.Domain
+namespace Statements.Domain
 {
     public class Statement
     {
