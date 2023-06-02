@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Statement.Domain"
+    "\\Statement.Domain",
+    "\\Statement.Persistance"
   ],
-  "SelectedNode": "\\SkillProfi.Api.sln",
+  "SelectedNode": "\\Statement.Persistance\\DbInitializer.cs",
   "PreviewInSolutionExplorer": false
 }
