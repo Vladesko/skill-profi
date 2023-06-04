@@ -7,11 +7,11 @@ namespace Statements.WebApi.Models
 {
     public class UpDateStatementDto : IMapWith<UpDateStatementCommand>
     {
-        public State Status { get; set; }
+        public State State { get; set; }
         public void Mapping(Profile profile)
         {
             profile.CreateMap<UpDateStatementDto, UpDateStatementCommand>()
-                .ForMember(staementDto => staementDto.Status, option => option.MapFrom(statementCommand => statementCommand.Status));
+                .ForMember(staementDto => staementDto.Status, option => option.MapFrom(statementCommand => statementCommand.State));
         }
     }
 }
