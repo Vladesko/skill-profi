@@ -6,10 +6,10 @@ using Statements.Domain;
 
 namespace Statements.Application.Statements.Commands.UpDateStatement
 {
-    public class UpdateStatementCommandHandler : IRequestHandler<UpDateStatementCommand>
+    public class UpDateStatementCommandHandler : IRequestHandler<UpDateStatementCommand>
     {
         private readonly IStatementDbContext _context;
-        public UpdateStatementCommandHandler(IStatementDbContext context)
+        public UpDateStatementCommandHandler(IStatementDbContext context)
         {
             _context = context;
         }

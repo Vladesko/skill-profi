@@ -1,0 +1,17 @@
+D:\Обучение\Программирование\С#\Skillbox\SP\SkillProfi.Api\Statement.Persistance\bin\Debug\net6.0\Statements.Persistance.deps.json
+D:\Обучение\Программирование\С#\Skillbox\SP\SkillProfi.Api\Statement.Persistance\bin\Debug\net6.0\Statements.Persistance.dll
+D:\Обучение\Программирование\С#\Skillbox\SP\SkillProfi.Api\Statement.Persistance\bin\Debug\net6.0\Statements.Persistance.pdb
+D:\Обучение\Программирование\С#\Skillbox\SP\SkillProfi.Api\Statement.Persistance\bin\Debug\net6.0\Statements.Application.dll
+D:\Обучение\Программирование\С#\Skillbox\SP\SkillProfi.Api\Statement.Persistance\bin\Debug\net6.0\Statements.Domain.dll
+D:\Обучение\Программирование\С#\Skillbox\SP\SkillProfi.Api\Statement.Persistance\bin\Debug\net6.0\Statements.Application.pdb
+D:\Обучение\Программирование\С#\Skillbox\SP\SkillProfi.Api\Statement.Persistance\bin\Debug\net6.0\Statements.Domain.pdb
+D:\Обучение\Программирование\С#\Skillbox\SP\SkillProfi.Api\Statement.Persistance\obj\Debug\net6.0\Statements.Persistance.csproj.AssemblyReference.cache
+D:\Обучение\Программирование\С#\Skillbox\SP\SkillProfi.Api\Statement.Persistance\obj\Debug\net6.0\Statements.Persistance.GeneratedMSBuildEditorConfig.editorconfig
+D:\Обучение\Программирование\С#\Skillbox\SP\SkillProfi.Api\Statement.Persistance\obj\Debug\net6.0\Statements.Persistance.AssemblyInfoInputs.cache
+D:\Обучение\Программирование\С#\Skillbox\SP\SkillProfi.Api\Statement.Persistance\obj\Debug\net6.0\Statements.Persistance.AssemblyInfo.cs
+D:\Обучение\Программирование\С#\Skillbox\SP\SkillProfi.Api\Statement.Persistance\obj\Debug\net6.0\Statements.Persistance.csproj.CoreCompileInputs.cache
+D:\Обучение\Программирование\С#\Skillbox\SP\SkillProfi.Api\Statement.Persistance\obj\Debug\net6.0\Statements.Persistance.csproj.CopyComplete
+D:\Обучение\Программирование\С#\Skillbox\SP\SkillProfi.Api\Statement.Persistance\obj\Debug\net6.0\Statements.Persistance.dll
+D:\Обучение\Программирование\С#\Skillbox\SP\SkillProfi.Api\Statement.Persistance\obj\Debug\net6.0\refint\Statements.Persistance.dll
+D:\Обучение\Программирование\С#\Skillbox\SP\SkillProfi.Api\Statement.Persistance\obj\Debug\net6.0\Statements.Persistance.pdb
+D:\Обучение\Программирование\С#\Skillbox\SP\SkillProfi.Api\Statement.Persistance\obj\Debug\net6.0\ref\Statements.Persistance.dll
