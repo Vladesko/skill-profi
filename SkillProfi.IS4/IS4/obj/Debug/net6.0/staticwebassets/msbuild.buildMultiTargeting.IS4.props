@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\IS4.props" />
+</Project>

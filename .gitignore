@@ -1,1 +1,8 @@
 SpStatement.db
+SpStatement.db-shm
+SpStatement.db-wal 
+appsettings.json
+appsettings.Development.json
+.json
+AuthorizeStatementContext.db
+.db
