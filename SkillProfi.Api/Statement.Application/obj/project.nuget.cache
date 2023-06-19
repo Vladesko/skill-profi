@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "mT1qAweb2dkbv/qDE7ldTkDrE28IcMdMMtlkxZTYzvLqeh9rlz4Noq5o6Fi1KAkSNndmvI5Fy/eo+tTN1KAC/Q==",
+  "dgSpecHash": "iXFeJW2PTvarqRipBaJyTt/RlcWYTyd6RN9Z/p3bytxfBubmuLToMucD6cbF7cCmiR2Q4VjmYGMP/+BeAUziDw==",
   "success": true,
   "projectFilePath": "D:\\Обучение\\Программирование\\С#\\Skillbox\\SP\\SkillProfi.Api\\Statement.Application\\Statements.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.2\\fluentvalidation.dependencyinjectionextensions.11.5.2.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
