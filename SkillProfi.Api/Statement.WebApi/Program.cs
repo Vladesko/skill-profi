@@ -3,6 +3,7 @@ using Statements.Application.Common.Dependenies;
 using Statements.Application.Interfaces;
 using Statements.Persistance;
 using Statements.Persistance.Dependencies;
+using Statements.WebApi.Middleware;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -58,6 +59,7 @@ void RegisterServices(IServiceCollection services)
 
 void Configure(WebApplication app)
 {
+	app.UseCustomExceptionHandler();
 	app.UseRouting();
 	app.UseHttpsRedirection();
 	app.UseCors("AllowAll");
