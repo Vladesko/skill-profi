@@ -12,7 +12,6 @@ namespace Statements.Application.Statements.Commands.CreateStatement
         public CreateStatementCommandValidator()
         {
             RuleFor(createStatement => createStatement.Name).NotEmpty();
-            RuleFor(createStatement => createStatement.Id).NotEqual(Guid.Empty);
         }
     }
 }
