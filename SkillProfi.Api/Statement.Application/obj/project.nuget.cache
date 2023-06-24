@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "iXFeJW2PTvarqRipBaJyTt/RlcWYTyd6RN9Z/p3bytxfBubmuLToMucD6cbF7cCmiR2Q4VjmYGMP/+BeAUziDw==",
+  "dgSpecHash": "R93L3otGYq5Au68lkqsJjy8WeBH7RBFheP0ij1yVpm7kX6lEcEmEHtyb7eyC336tJCwr80ox3xt7leM/Li5cgg==",
   "success": true,
   "projectFilePath": "D:\\Обучение\\Программирование\\С#\\Skillbox\\SP\\SkillProfi.Api\\Statement.Application\\Statements.Application.csproj",
   "expectedPackageFiles": [
@@ -22,6 +22,8 @@
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\serilog\\3.0.1\\serilog.3.0.1.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []

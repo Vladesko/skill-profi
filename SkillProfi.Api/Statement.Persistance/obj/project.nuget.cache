@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "T8LcCh5IFQJ9Qhfe1rsFJ9JS9wqV5j/OkqaYKkIucX8Gw/V1DQkXjc+jLg6dWxyN0l2hGDFJBUGNAJwQ6S+LEg==",
+  "dgSpecHash": "rq0zmLzCYr/j5Pm90bgTDaX18oJgO9Elfy9+U0qjyclsPt0deYEz44/zitJ3qAe9VGgyVViuQXCSQ5SAJandHw==",
   "success": true,
   "projectFilePath": "D:\\Обучение\\Программирование\\С#\\Skillbox\\SP\\SkillProfi.Api\\Statement.Persistance\\Statements.Persistance.csproj",
   "expectedPackageFiles": [
@@ -28,6 +28,8 @@
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\serilog\\3.0.1\\serilog.3.0.1.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.4\\sqlitepclraw.bundle_e_sqlite3.2.1.4.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\sqlitepclraw.core\\2.1.4\\sqlitepclraw.core.2.1.4.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.4\\sqlitepclraw.lib.e_sqlite3.2.1.4.nupkg.sha512",

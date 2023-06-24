@@ -13,6 +13,8 @@ namespace Statements.Application.Common.Dependenies
             services.AddMediatR(config => config.RegisterServicesFromAssemblies(Assembly.GetExecutingAssembly()));
             services.AddValidatorsFromAssemblies(new[] { Assembly.GetExecutingAssembly() });
             services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
+            services.AddTransient(typeof(IPipelineBehavior<,>),typeof(LogginBehavior<,>));
+
             return services;
         }
     }

@@ -1,3 +1,5 @@
+using Serilog;
+using Serilog.Events;
 using Statements.Application.Common;
 using Statements.Application.Common.Dependenies;
 using Statements.Application.Interfaces;
@@ -8,9 +10,14 @@ using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Host.UseSerilog();
+
 RegisterServices(builder.Services);
 
 var app = builder.Build();
+Log.Logger = new LoggerConfiguration().MinimumLevel.Override("Microsoft", LogEventLevel.Information)
+	.WriteTo.File("StatementInfo-.txt", rollingInterval: RollingInterval.Day).CreateLogger();
+
 
 using (var scope = app.Services.CreateScope())
 {
@@ -22,11 +29,12 @@ using (var scope = app.Services.CreateScope())
 	}
 	catch (Exception exception)
 	{
-
+		Log.Fatal(exception, "An error occurred while app initialization");
 	}
 }
 
 Configure(app);
+
 
 app.Run();
 
@@ -55,14 +63,23 @@ void RegisterServices(IServiceCollection services)
             policy.AllowAnyOrigin();
 		});
 	});
+	services.AddSwaggerGen();
+	services.AddApiVersioning();
 }
 
 void Configure(WebApplication app)
 {
+	app.UseSwagger();
+	app.UseSwaggerUI(config =>
+	{
+		config.RoutePrefix = string.Empty;
+		config.SwaggerEndpoint("swagger/v1/swagger.json", "Statements API");
+	});
+	
 	app.UseCustomExceptionHandler();
 	app.UseRouting();
 	app.UseHttpsRedirection();
 	app.UseCors("AllowAll");
-
+	app.UseApiVersioning();
 	app.UseEndpoints(endpoints => endpoints.MapControllers());
 }
