@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Serilog;
 using Serilog.Events;
 using Statements.Application.Common;
@@ -63,7 +64,17 @@ void RegisterServices(IServiceCollection services)
             policy.AllowAnyOrigin();
 		});
 	});
-	services.AddSwaggerGen();
+
+    services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, config =>
+                {
+                    config.Authority = "https://localhost:7277";
+                    config.Audience = "api";
+                });
+
+    services.AddAuthorization();
+
+    services.AddSwaggerGen();
 	services.AddApiVersioning();
 }
 
@@ -81,5 +92,9 @@ void Configure(WebApplication app)
 	app.UseHttpsRedirection();
 	app.UseCors("AllowAll");
 	app.UseApiVersioning();
+
+	app.UseAuthentication();
+	app.UseAuthorization();
+
 	app.UseEndpoints(endpoints => endpoints.MapControllers());
 }

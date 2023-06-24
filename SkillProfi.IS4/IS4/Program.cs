@@ -52,6 +52,7 @@ void RegisterServices(IServiceCollection services)
     services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).
         AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, config =>
         {
+            config.Authority = "https://localhost:7277";
             config.Audience = "api";
         });
 

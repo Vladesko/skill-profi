@@ -10,3 +10,15 @@ SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NO
 2023-06-24 23:28:22.104 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 153.8109ms
 2023-06-24 23:28:22.234 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - -
 2023-06-24 23:28:22.520 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 285.7459ms
+2023-06-24 23:48:34.275 +03:00 [INF] Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2023-06-24 23:48:35.138 +03:00 [INF] Now listening on: https://localhost:7277
+2023-06-24 23:48:35.138 +03:00 [INF] Now listening on: http://localhost:5219
+2023-06-24 23:48:36.312 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7277/index.html - -
+2023-06-24 23:48:37.254 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - -
+2023-06-24 23:48:37.269 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 13.4406ms
+2023-06-24 23:48:37.273 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7277/index.html - - - 200 - text/html;charset=utf-8 970.7753ms
+2023-06-24 23:48:37.287 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_vs/browserLink - -
+2023-06-24 23:48:37.414 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 126.6450ms
+2023-06-24 23:48:37.509 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - -
+2023-06-24 23:48:37.759 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 249.6705ms
